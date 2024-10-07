@@ -1,17 +1,17 @@
 // 1. write a function that takes a random number as an argument and logs the random number while the argument number and random number are equal. argument number should be from 0 to 10.
 function equalRandomNumber(num) {
   if (num < 0 || num > 10) {
-    console.error("number must be from 0 to 10");
-    return;
+      console.log("Argument number must be between 0 and 10.");
+      return;
   }
-  const randomNum = Math.floor(Math.random() * 11);
-  console.log(randomNum);
+  let randomNumber;
 
-  if (randomNum === num) {
-    equalRandomNumber(num);
-  }
+  do {
+      randomNumber = Math.floor(Math.random() * 11);
+      console.log(`random number: ${randomNumber}`);
+  } while (randomNumber === num);
 }
-equalRandomNumber(8);
+equalRandomNumber(5);
 
 // 2. write a function that imitates to return fake data, use setTimeout. make both async/await and .then.catch methods.
 function getData() {
