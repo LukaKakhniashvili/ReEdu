@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lec. 8 - Exercise 6</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>
+      6. Make a form with three inputs name, email and phone number, when user
+      try to enter each of this field you should save this info into
+      localstorage. if you typing info and refresh the page, the info that you
+      wrote should not be deleted.
+    </h2>
+    <form>
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        oninput="saveToLocalStorage('name')"
+        placeholder="Enter your name"
+      /><br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        oninput="saveToLocalStorage('email')"
+        placeholder="Enter your email"
+      /><br /><br />
+      <label for="phone">Phone:</label>
+      <input
+        type="tel"
+        id="phone"
+        oninput="saveToLocalStorage('phone')"
+        placeholder="Enter your phone number"
+      /><br /><br />
+    </form>
+  </body>
+  <script src="main.js"></script>
+</html>
