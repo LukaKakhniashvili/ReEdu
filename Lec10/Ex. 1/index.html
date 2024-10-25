@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lec. 10 - Exercise 1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>
+      1. Write a function that receives 3 parameters: amount of money, dayLimit
+      and weekLimit you should calculate how many days does it needs to withdway
+      whole amount of money
+    </h2>
+    <div class="container">
+      <h3>Withdrawal Calculator</h3>
+      <div class="input-group">
+        <label for="amount">Amount of Money:</label>
+        <input type="number" id="amount" placeholder="Enter total amount" />
+      </div>
+      <div class="input-group">
+        <label for="dayLimit">Daily Limit:</label>
+        <input type="number" id="dayLimit" placeholder="Enter daily limit" />
+      </div>
+      <div class="input-group">
+        <label for="weekLimit">Weekly Limit:</label>
+        <input type="number" id="weekLimit" placeholder="Enter weekly limit" />
+      </div>
+      <button onclick="calculateDays()">Calculate Days</button>
+      <p id="result"></p>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
