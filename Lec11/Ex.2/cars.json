@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1730463452720,
+    "carModel": "Ferrari",
+    "carReleaseDate": "2020",
+    "carColor": "red"
+  },
+  {
+    "id": 1730463470716,
+    "carModel": "Mercedes",
+    "carReleaseDate": "2023",
+    "carColor": "Black"
+  },
+  {
+    "id": 1730463497283,
+    "carModel": "BMW",
+    "carReleaseDate": "2017",
+    "carColor": "Gray"
+  }
+]
