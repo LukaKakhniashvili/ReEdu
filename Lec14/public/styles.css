@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 50%;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form div input {
+  width: 150px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.expense-list {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+.delete,
+.edit,
+.save_edit,
+.cancel_edit {
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  transition-duration: 0.3s;
+}
+
+.delete {
+  background-color: #d25050;
+}
+
+.cancel_edit {
+  background-color: #919191;
+}
+
+.edit {
+  background-color: #4caf50;
+}
+
+.save_edit {
+  background-color: rgb(78, 78, 210);
+}
+
+.delete:hover {
+  background-color: #c92828;
+}
+
+.edit:hover {
+  background-color: #45a049;
+}
+
+.cancel_edit:hover {
+  background-color: #5a5a5a;
+}
+
+.save_edit:hover {
+  background-color: rgb(38, 38, 208);
+}
